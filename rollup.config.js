@@ -10,6 +10,7 @@ export default {
     dir: 'dist',
     banner,
     format: 'esm',
+    sourcemap: true,
   },
   plugins: [typescript()],
   watch: true,
