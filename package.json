@@ -1,6 +1,6 @@
 {
   "name": "@brandonaaron/astro-script-embed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Embed (or inline) a script to your HTML in astro components.",
   "author": "Brandon Aaron",
   "license": "ISC",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/brandonaaron/astro-script-embed.git"
   },
+  "keywords": ["astro-integration"],
   "exports": "./dist/index.js",
   "main": "dist/index.js",
   "module": "dist/index.js",
