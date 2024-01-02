@@ -1,1 +1,3 @@
-export { astroEmbedScript } from './astro-embed-script'
+import { astroEmbedScript } from './astro-embed-script'
+
+export default astroEmbedScript

@@ -10,6 +10,20 @@ I needed a small blocking script on every html page generated in my Astro build.
 
 ## Usage
 
+Run:
+
+```
+npx astro add @brandonaaron/astro-script-embed
+```
+
+Then add `is:inline is:embeded` to any script tag. The source can be to a package or local file. For example I used it to inline the small blocking script from my [dark-pref](https://github.com/brandonaaron/dark-pref) project like so:
+
+```
+<script is:inline is:embeded src="@brandonaaron/dark-pref/dist/DarkPref.blocking.js"></script>
+```
+
+### Manully installing
+
 First install it:
 
 ```
@@ -26,10 +40,4 @@ export default defineConfig({
   integrations: [astroEmbedScript()],
   //...
 })
-```
-
-Then add `is:inline is:embeded` to any script tag. The source can be to a package or local file. For example I used it to inline the small blocking script from my [dark-pref](https://github.com/brandonaaron/dark-pref) project like so:
-
-```
-<script is:inline is:embeded src="@brandonaaron/dark-pref/dist/DarkPref.blocking.js"></script>
 ```

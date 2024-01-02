@@ -1,6 +1,6 @@
 {
   "name": "@brandonaaron/astro-script-embed",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Embed (or inline) a script to your HTML in astro components.",
   "author": "Brandon Aaron",
   "license": "ISC",
