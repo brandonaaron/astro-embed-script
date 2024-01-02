@@ -1,2 +1,8 @@
-.github
+.devcontainer
 .editorconfig
+.husky
+.github
+src/test-fixtures
+src/*.test.js
+Dockerfile
+docker-compose.yml
