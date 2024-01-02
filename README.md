@@ -27,17 +27,17 @@ Then add `is:inline is:embeded` to any script tag. The source can be to a packag
 First install it:
 
 ```
-npm install @brandonaaron/astro-embed-script
+npm install @brandonaaron/astro-script-embed
 ```
 
 Update your Astro config to import and include the 'astroEmbedScript' integration:
 
 ```
-import { astroEmbedScript } from '@brandonaaron/astro-embed-script'
+import scriptEmbed from '@brandonaaron/astro-script-embed'
 
 export default defineConfig({
   //...
-  integrations: [astroEmbedScript()],
+  integrations: [scriptEmbed()],
   //...
 })
 ```

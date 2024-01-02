@@ -1,5 +1,9 @@
 # Changelog
 
+## [Unreleased]
+
+- Fix README package references
+
 ## [1.0.3] - 2024-01-02
 
 - Astro add expects a default export
